@@ -20,7 +20,6 @@ nav{
 }
 
 nav a{
-    color: #FFF;
     display: inline-block;
     padding: 0.5em;
     text-decoration: none;
@@ -58,9 +57,17 @@ aside{
 footer{
     background-color: steelblue;
     bottom: 0;
-    color: #FFF;
     float: left;
+    padding: 1em 0 1em 0;
     position: fixed;
     width: 100%;
+}
+
+footer p{
     text-align: center;
+    font-size: 0.9em;
+}
+
+nav a, footer p{
+    color: #FFF;
 }
